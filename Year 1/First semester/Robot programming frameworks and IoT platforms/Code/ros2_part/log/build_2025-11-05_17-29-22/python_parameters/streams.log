@@ -1,0 +1,24 @@
+[6.270s] Invoking command in '/home/brairlab/ros2_ws/src/python_parameters': PYTHONPATH=/home/brairlab/ros2_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brairlab/ros2_ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/brairlab/ros2_ws/build/python_parameters/build install --record /home/brairlab/ros2_ws/build/python_parameters/install.log --single-version-externally-managed install_data
+[7.187s] running egg_info
+[7.215s] writing ../../build/python_parameters/python_parameters.egg-info/PKG-INFO
+[7.248s] writing dependency_links to ../../build/python_parameters/python_parameters.egg-info/dependency_links.txt
+[7.248s] writing entry points to ../../build/python_parameters/python_parameters.egg-info/entry_points.txt
+[7.248s] writing requirements to ../../build/python_parameters/python_parameters.egg-info/requires.txt
+[7.250s] writing top-level names to ../../build/python_parameters/python_parameters.egg-info/top_level.txt
+[7.363s] reading manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[7.386s] adding license file 'LICENSE'
+[7.386s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[7.441s] running build
+[7.442s] running build_py
+[7.442s] running install
+[7.442s] running install_lib
+[7.523s] running install_data
+[7.541s] creating /home/brairlab/ros2_ws/install/python_parameters/share/python_parameters/launch
+[7.541s] copying launch/param_launch.xml -> /home/brairlab/ros2_ws/install/python_parameters/share/python_parameters/launch
+[7.541s] running install_egg_info
+[7.541s] removing '/home/brairlab/ros2_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters-0.0.0-py3.10.egg-info' (and everything under it)
+[7.553s] Copying ../../build/python_parameters/python_parameters.egg-info to /home/brairlab/ros2_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters-0.0.0-py3.10.egg-info
+[7.554s] running install_scripts
+[7.853s] Installing minimal_param_node script to /home/brairlab/ros2_ws/install/python_parameters/lib/python_parameters
+[7.853s] writing list of installed files to '/home/brairlab/ros2_ws/build/python_parameters/install.log'
+[8.213s] Invoked command in '/home/brairlab/ros2_ws/src/python_parameters' returned '0': PYTHONPATH=/home/brairlab/ros2_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brairlab/ros2_ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/brairlab/ros2_ws/build/python_parameters/build install --record /home/brairlab/ros2_ws/build/python_parameters/install.log --single-version-externally-managed install_data

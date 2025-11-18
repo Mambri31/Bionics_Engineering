@@ -1,0 +1,2 @@
+Invoking command in '/home/brairlab/ros2_ws/src/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/brairlab/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/brairlab/ros2_ws/src/install/tutorial_interfaces
+Invoked command in '/home/brairlab/ros2_ws/src/build/tutorial_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/brairlab/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/brairlab/ros2_ws/src/install/tutorial_interfaces

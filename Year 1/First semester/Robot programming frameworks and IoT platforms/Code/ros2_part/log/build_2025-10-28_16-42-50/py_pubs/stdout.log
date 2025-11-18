@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/py_pubs/py_pubs.egg-info
+writing ../../build/py_pubs/py_pubs.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_pubs/py_pubs.egg-info/dependency_links.txt
+writing entry points to ../../build/py_pubs/py_pubs.egg-info/entry_points.txt
+writing requirements to ../../build/py_pubs/py_pubs.egg-info/requires.txt
+writing top-level names to ../../build/py_pubs/py_pubs.egg-info/top_level.txt
+writing manifest file '../../build/py_pubs/py_pubs.egg-info/SOURCES.txt'
+reading manifest file '../../build/py_pubs/py_pubs.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/py_pubs/py_pubs.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/brairlab/ros2_ws/build/py_pubs/build
+creating /home/brairlab/ros2_ws/build/py_pubs/build/lib
+creating /home/brairlab/ros2_ws/build/py_pubs/build/lib/py_pubs
+copying py_pubs/publisher_member_function.py -> /home/brairlab/ros2_ws/build/py_pubs/build/lib/py_pubs
+copying py_pubs/__init__.py -> /home/brairlab/ros2_ws/build/py_pubs/build/lib/py_pubs
+running install
+running install_lib
+creating /home/brairlab/ros2_ws/install/py_pubs/lib/python3.10/site-packages/py_pubs
+copying /home/brairlab/ros2_ws/build/py_pubs/build/lib/py_pubs/publisher_member_function.py -> /home/brairlab/ros2_ws/install/py_pubs/lib/python3.10/site-packages/py_pubs
+copying /home/brairlab/ros2_ws/build/py_pubs/build/lib/py_pubs/__init__.py -> /home/brairlab/ros2_ws/install/py_pubs/lib/python3.10/site-packages/py_pubs
+byte-compiling /home/brairlab/ros2_ws/install/py_pubs/lib/python3.10/site-packages/py_pubs/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+byte-compiling /home/brairlab/ros2_ws/install/py_pubs/lib/python3.10/site-packages/py_pubs/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/brairlab/ros2_ws/install/py_pubs/share/ament_index
+creating /home/brairlab/ros2_ws/install/py_pubs/share/ament_index/resource_index
+creating /home/brairlab/ros2_ws/install/py_pubs/share/ament_index/resource_index/packages
+copying resource/py_pubs -> /home/brairlab/ros2_ws/install/py_pubs/share/ament_index/resource_index/packages
+copying package.xml -> /home/brairlab/ros2_ws/install/py_pubs/share/py_pubs
+running install_egg_info
+Copying ../../build/py_pubs/py_pubs.egg-info to /home/brairlab/ros2_ws/install/py_pubs/lib/python3.10/site-packages/py_pubs-0.0.0-py3.10.egg-info
+running install_scripts
+Installing talker script to /home/brairlab/ros2_ws/install/py_pubs/lib/py_pubs
+writing list of installed files to '/home/brairlab/ros2_ws/build/py_pubs/install.log'

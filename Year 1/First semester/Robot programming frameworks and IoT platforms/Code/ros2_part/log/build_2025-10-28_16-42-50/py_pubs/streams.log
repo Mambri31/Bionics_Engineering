@@ -1,0 +1,43 @@
+[1.316s] Invoking command in '/home/brairlab/ros2_ws/src/py_pubs': PYTHONPATH=/home/brairlab/ros2_ws/build/py_pubs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brairlab/ros2_ws/install/py_pubs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubs build --build-base /home/brairlab/ros2_ws/build/py_pubs/build install --record /home/brairlab/ros2_ws/build/py_pubs/install.log --single-version-externally-managed install_data
+[1.746s] running egg_info
+[1.746s] creating ../../build/py_pubs/py_pubs.egg-info
+[1.746s] writing ../../build/py_pubs/py_pubs.egg-info/PKG-INFO
+[1.747s] writing dependency_links to ../../build/py_pubs/py_pubs.egg-info/dependency_links.txt
+[1.747s] writing entry points to ../../build/py_pubs/py_pubs.egg-info/entry_points.txt
+[1.747s] writing requirements to ../../build/py_pubs/py_pubs.egg-info/requires.txt
+[1.748s] writing top-level names to ../../build/py_pubs/py_pubs.egg-info/top_level.txt
+[1.748s] writing manifest file '../../build/py_pubs/py_pubs.egg-info/SOURCES.txt'
+[1.753s] reading manifest file '../../build/py_pubs/py_pubs.egg-info/SOURCES.txt'
+[1.757s] adding license file 'LICENSE'
+[1.766s] writing manifest file '../../build/py_pubs/py_pubs.egg-info/SOURCES.txt'
+[1.766s] running build
+[1.766s] running build_py
+[1.766s] creating /home/brairlab/ros2_ws/build/py_pubs/build
+[1.766s] creating /home/brairlab/ros2_ws/build/py_pubs/build/lib
+[1.766s] creating /home/brairlab/ros2_ws/build/py_pubs/build/lib/py_pubs
+[1.766s] copying py_pubs/publisher_member_function.py -> /home/brairlab/ros2_ws/build/py_pubs/build/lib/py_pubs
+[1.766s] copying py_pubs/__init__.py -> /home/brairlab/ros2_ws/build/py_pubs/build/lib/py_pubs
+[1.766s] running install
+[1.766s] running install_lib
+[1.766s] creating /home/brairlab/ros2_ws/install/py_pubs/lib/python3.10/site-packages/py_pubs
+[1.766s] copying /home/brairlab/ros2_ws/build/py_pubs/build/lib/py_pubs/publisher_member_function.py -> /home/brairlab/ros2_ws/install/py_pubs/lib/python3.10/site-packages/py_pubs
+[1.766s] copying /home/brairlab/ros2_ws/build/py_pubs/build/lib/py_pubs/__init__.py -> /home/brairlab/ros2_ws/install/py_pubs/lib/python3.10/site-packages/py_pubs
+[1.766s] byte-compiling /home/brairlab/ros2_ws/install/py_pubs/lib/python3.10/site-packages/py_pubs/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[1.767s]   File "/home/brairlab/ros2_ws/install/py_pubs/lib/python3.10/site-packages/py_pubs/publisher_member_function.py", line 19
+[1.767s]     self.get_logger().info(f"Published: "{msg.data}"")
+[1.770s]                            ^^^^^^^^^^^^^^^^^^^^^^^^
+[1.772s] SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[1.772s] 
+[1.772s] byte-compiling /home/brairlab/ros2_ws/install/py_pubs/lib/python3.10/site-packages/py_pubs/__init__.py to __init__.cpython-310.pyc
+[1.772s] running install_data
+[1.772s] creating /home/brairlab/ros2_ws/install/py_pubs/share/ament_index
+[1.772s] creating /home/brairlab/ros2_ws/install/py_pubs/share/ament_index/resource_index
+[1.772s] creating /home/brairlab/ros2_ws/install/py_pubs/share/ament_index/resource_index/packages
+[1.773s] copying resource/py_pubs -> /home/brairlab/ros2_ws/install/py_pubs/share/ament_index/resource_index/packages
+[1.794s] copying package.xml -> /home/brairlab/ros2_ws/install/py_pubs/share/py_pubs
+[1.808s] running install_egg_info
+[1.821s] Copying ../../build/py_pubs/py_pubs.egg-info to /home/brairlab/ros2_ws/install/py_pubs/lib/python3.10/site-packages/py_pubs-0.0.0-py3.10.egg-info
+[1.825s] running install_scripts
+[1.930s] Installing talker script to /home/brairlab/ros2_ws/install/py_pubs/lib/py_pubs
+[1.938s] writing list of installed files to '/home/brairlab/ros2_ws/build/py_pubs/install.log'
+[2.040s] Invoked command in '/home/brairlab/ros2_ws/src/py_pubs' returned '0': PYTHONPATH=/home/brairlab/ros2_ws/build/py_pubs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brairlab/ros2_ws/install/py_pubs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubs build --build-base /home/brairlab/ros2_ws/build/py_pubs/build install --record /home/brairlab/ros2_ws/build/py_pubs/install.log --single-version-externally-managed install_data

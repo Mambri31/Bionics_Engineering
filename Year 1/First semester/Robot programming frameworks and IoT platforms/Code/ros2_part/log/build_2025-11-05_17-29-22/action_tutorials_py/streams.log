@@ -1,0 +1,41 @@
+[5.667s] Invoking command in '/home/brairlab/ros2_ws/src/action_tutorials_py': AMENT_PREFIX_PATH=/home/brairlab/ros2_ws/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/brairlab/ros2_ws/install/action_tutorials_interfaces LD_LIBRARY_PATH=/home/brairlab/ros2_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/brairlab/ros2_ws/build/action_tutorials_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brairlab/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages:/home/brairlab/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/action_tutorials_py build --build-base /home/brairlab/ros2_ws/build/action_tutorials_py/build install --record /home/brairlab/ros2_ws/build/action_tutorials_py/install.log --single-version-externally-managed install_data
+[6.153s] running egg_info
+[6.166s] creating ../../build/action_tutorials_py/action_tutorials_py.egg-info
+[6.167s] writing ../../build/action_tutorials_py/action_tutorials_py.egg-info/PKG-INFO
+[6.168s] writing dependency_links to ../../build/action_tutorials_py/action_tutorials_py.egg-info/dependency_links.txt
+[6.169s] writing entry points to ../../build/action_tutorials_py/action_tutorials_py.egg-info/entry_points.txt
+[6.170s] writing requirements to ../../build/action_tutorials_py/action_tutorials_py.egg-info/requires.txt
+[6.170s] writing top-level names to ../../build/action_tutorials_py/action_tutorials_py.egg-info/top_level.txt
+[6.170s] writing manifest file '../../build/action_tutorials_py/action_tutorials_py.egg-info/SOURCES.txt'
+[6.211s] reading manifest file '../../build/action_tutorials_py/action_tutorials_py.egg-info/SOURCES.txt'
+[6.213s] writing manifest file '../../build/action_tutorials_py/action_tutorials_py.egg-info/SOURCES.txt'
+[6.213s] running build
+[6.215s] running build_py
+[6.215s] creating /home/brairlab/ros2_ws/build/action_tutorials_py/build
+[6.215s] creating /home/brairlab/ros2_ws/build/action_tutorials_py/build/lib
+[6.215s] creating /home/brairlab/ros2_ws/build/action_tutorials_py/build/lib/action_tutorials_py
+[6.215s] copying action_tutorials_py/fibonacci_action_server.py -> /home/brairlab/ros2_ws/build/action_tutorials_py/build/lib/action_tutorials_py
+[6.216s] copying action_tutorials_py/fibonacci_action_client.py -> /home/brairlab/ros2_ws/build/action_tutorials_py/build/lib/action_tutorials_py
+[6.220s] copying action_tutorials_py/__init__.py -> /home/brairlab/ros2_ws/build/action_tutorials_py/build/lib/action_tutorials_py
+[6.222s] running install
+[6.222s] running install_lib
+[6.226s] creating /home/brairlab/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages/action_tutorials_py
+[6.226s] copying /home/brairlab/ros2_ws/build/action_tutorials_py/build/lib/action_tutorials_py/fibonacci_action_server.py -> /home/brairlab/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages/action_tutorials_py
+[6.229s] copying /home/brairlab/ros2_ws/build/action_tutorials_py/build/lib/action_tutorials_py/fibonacci_action_client.py -> /home/brairlab/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages/action_tutorials_py
+[6.229s] copying /home/brairlab/ros2_ws/build/action_tutorials_py/build/lib/action_tutorials_py/__init__.py -> /home/brairlab/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages/action_tutorials_py
+[6.229s] byte-compiling /home/brairlab/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages/action_tutorials_py/fibonacci_action_server.py to fibonacci_action_server.cpython-310.pyc
+[6.238s] byte-compiling /home/brairlab/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages/action_tutorials_py/fibonacci_action_client.py to fibonacci_action_client.cpython-310.pyc
+[6.245s] byte-compiling /home/brairlab/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages/action_tutorials_py/__init__.py to __init__.cpython-310.pyc
+[6.246s] running install_data
+[6.246s] creating /home/brairlab/ros2_ws/install/action_tutorials_py/share/ament_index
+[6.246s] creating /home/brairlab/ros2_ws/install/action_tutorials_py/share/ament_index/resource_index
+[6.247s] creating /home/brairlab/ros2_ws/install/action_tutorials_py/share/ament_index/resource_index/packages
+[6.247s] copying resource/action_tutorials_py -> /home/brairlab/ros2_ws/install/action_tutorials_py/share/ament_index/resource_index/packages
+[6.247s] copying package.xml -> /home/brairlab/ros2_ws/install/action_tutorials_py/share/action_tutorials_py
+[6.252s] running install_egg_info
+[6.280s] Copying ../../build/action_tutorials_py/action_tutorials_py.egg-info to /home/brairlab/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages/action_tutorials_py-0.0.0-py3.10.egg-info
+[6.317s] running install_scripts
+[6.449s] Installing fibonacci_action_client script to /home/brairlab/ros2_ws/install/action_tutorials_py/lib/action_tutorials_py
+[6.449s] Installing fibonacci_action_server script to /home/brairlab/ros2_ws/install/action_tutorials_py/lib/action_tutorials_py
+[6.450s] writing list of installed files to '/home/brairlab/ros2_ws/build/action_tutorials_py/install.log'
+[6.644s] Invoked command in '/home/brairlab/ros2_ws/src/action_tutorials_py' returned '0': AMENT_PREFIX_PATH=/home/brairlab/ros2_ws/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/brairlab/ros2_ws/install/action_tutorials_interfaces LD_LIBRARY_PATH=/home/brairlab/ros2_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/brairlab/ros2_ws/build/action_tutorials_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brairlab/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages:/home/brairlab/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/action_tutorials_py build --build-base /home/brairlab/ros2_ws/build/action_tutorials_py/build install --record /home/brairlab/ros2_ws/build/action_tutorials_py/install.log --single-version-externally-managed install_data

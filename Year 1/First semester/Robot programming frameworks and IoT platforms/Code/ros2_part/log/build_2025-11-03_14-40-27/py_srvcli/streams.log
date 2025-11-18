@@ -1,0 +1,26 @@
+[0.768s] Invoking command in '/home/brairlab/ros2_ws/src/py_srvcli': PYTHONPATH=/home/brairlab/ros2_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brairlab/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/brairlab/ros2_ws/build/py_srvcli/build install --record /home/brairlab/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed install_data
+[1.037s] running egg_info
+[1.038s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[1.040s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[1.040s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[1.041s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[1.042s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[1.045s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.045s] adding license file 'LICENSE'
+[1.046s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.047s] running build
+[1.047s] running build_py
+[1.047s] copying py_srvcli/service_member_function.py -> /home/brairlab/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[1.047s] running install
+[1.048s] running install_lib
+[1.049s] copying /home/brairlab/ros2_ws/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/brairlab/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[1.051s] byte-compiling /home/brairlab/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-310.pyc
+[1.052s] running install_data
+[1.053s] running install_egg_info
+[1.058s] removing '/home/brairlab/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)
+[1.058s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/brairlab/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[1.060s] running install_scripts
+[1.090s] Installing client script to /home/brairlab/ros2_ws/install/py_srvcli/lib/py_srvcli
+[1.090s] Installing service script to /home/brairlab/ros2_ws/install/py_srvcli/lib/py_srvcli
+[1.091s] writing list of installed files to '/home/brairlab/ros2_ws/build/py_srvcli/install.log'
+[1.127s] Invoked command in '/home/brairlab/ros2_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/brairlab/ros2_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brairlab/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/brairlab/ros2_ws/build/py_srvcli/build install --record /home/brairlab/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed install_data

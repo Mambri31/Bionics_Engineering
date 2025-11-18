@@ -1,0 +1,5 @@
+ <launch>
+    <node name="param_node" pkg="python_parameters" exec="minimal_param_node" output="screen">
+        <param name="my_parameter" value="earth"/>
+    </node>
+ </launch>
