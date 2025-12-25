@@ -13,7 +13,7 @@ clc;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 
 N=100;               % Numero di campioni generati
-rho=-0.9 ;            % Coefficiente di correlazione ad un passo
+rho=-0.8 ;            % Coefficiente di correlazione ad un passo
 varX=1;              % Potenza del processo AR(1) X[n]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
