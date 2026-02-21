@@ -1,0 +1,4 @@
+# Receive if the garbage was successful 
+bool pick
+---
+bool success
