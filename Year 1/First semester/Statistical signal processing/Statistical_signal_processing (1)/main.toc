@@ -1,0 +1,102 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Discete representation of continuos-Time signals}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Sampling theorem}{5}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Generalization}{5}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Generalized fourier analysis or KLT}{5}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}The discrete Karhunen-Loeve Transform(DKLT)}{8}{subsection.1.4}%
+\contentsline {subsubsection}{\numberline {1.4.1}Basis expansion of discrete-time signals}{8}{subsubsection.1.4.1}%
+\contentsline {subsubsection}{\numberline {1.4.2}Principal Components Analysis(PCA)}{12}{subsubsection.1.4.2}%
+\contentsline {subsubsection}{\numberline {1.4.3}IMPORTANT EXAMPLE}{13}{subsubsection.1.4.3}%
+\contentsline {section}{\numberline {2}Introduction to discrete random-time processes}{19}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Characterization of a discrete-time random process}{19}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}First order statistics}{20}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Second order statistics}{20}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}Stationariety}{20}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Strict sense}{20}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Wide sense}{21}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}Proprierties of the ACF}{21}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Discrete processes and random vectors}{22}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Gaussin discrete random processes}{23}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Stationary discrete-time white process}{24}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Cross-correlation and cross-variance functions}{25}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Power Spectral Density(PSD)}{26}{subsection.2.8}%
+\contentsline {subsubsection}{\numberline {2.8.1}The link between ACF and the PSD}{27}{subsubsection.2.8.1}%
+\contentsline {subsubsection}{\numberline {2.8.2}The PSD of a white discrete-time random process}{28}{subsubsection.2.8.2}%
+\contentsline {subsubsection}{\numberline {2.8.3}EXAMPLE: cosinusoidal process in Additive white Gaussian Noise(AWGN)}{28}{subsubsection.2.8.3}%
+\contentsline {subsubsection}{\numberline {2.8.4}Costant signal(periodic) in AWGN(aperiodic)}{30}{subsubsection.2.8.4}%
+\contentsline {subsection}{\numberline {2.9}Complex Power Spectral Density}{30}{subsection.2.9}%
+\contentsline {subsubsection}{\numberline {2.9.1}Poles and zeros}{31}{subsubsection.2.9.1}%
+\contentsline {subsubsection}{\numberline {2.9.2}Region of convergence}{32}{subsubsection.2.9.2}%
+\contentsline {subsection}{\numberline {2.10}Linear time-invariant systems}{33}{subsection.2.10}%
+\contentsline {subsubsection}{\numberline {2.10.1}The autoregressive process of order 1: AR(1)}{34}{subsubsection.2.10.1}%
+\contentsline {subsubsection}{\numberline {2.10.2}Moving average process or order 1}{37}{subsubsection.2.10.2}%
+\contentsline {section}{\numberline {3}Estimation of deterministic parameters: Large numbers law and sample estimators}{40}{section.3}%
+\contentsline {subsection}{\numberline {3.1}The estimation problem and properties of an estimator}{40}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}The estimation problem}{40}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}The properties of an estimator}{41}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}Taxonomy of the estimation problems}{43}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Large Numbers Law and Measure of the Probability of an Event}{44}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Measure of the Probability of an Event}{44}{subsubsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.4}Measure of the Moments of a Random Variable}{52}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Measure of the Correlation Coefficient of 2 R.V's}{64}{subsubsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.5}Measure of the Mean Value and of the Autocorrelation Function of a w.s.s Random Process}{65}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Estimation of Deterministic parameters: Method of Moments and Maximum likelihood estimators}{71}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Estimation of Deterministic Parameters}{71}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Method of Moments}{72}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}The Maximum Likelihood (ML) Estimate}{80}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}The Cramèr-Rao Lower Bound}{89}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}The CRB}{89}{subsubsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.5}ML estimate of the Parameters of a Signal: Amplitude}{94}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}ML Estimate of the Parameters of a Signal: Amplitude e Phase}{102}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}ML estimate of the parameters of a Signal: Amplitude, Phase and Frequency}{118}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}ML Estimate of the Parameters of a Multi-component Signal}{133}{subsection.4.8}%
+\contentsline {subsection}{\numberline {4.9}Range/Time-Delay(TD) estimation}{135}{subsection.4.9}%
+\contentsline {subsection}{\numberline {4.10}Signal Estimation in Gaussian/Laplace Noise}{139}{subsection.4.10}%
+\contentsline {section}{\numberline {5}The Least Squares (LS) Method}{143}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Solving linear equations}{143}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Linear Least Squares (LS)}{144}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}EigenValue Decomposition (EVD)}{147}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}Singular Value Decomposition (SVD)}{147}{subsubsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.3}The deterministic linear model}{150}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}Linear Least Squares (LS)}{150}{subsubsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.2}LS vs ML estimation}{150}{subsubsection.5.3.2}%
+\contentsline {subsubsection}{\numberline {5.3.3}Linear model}{151}{subsubsection.5.3.3}%
+\contentsline {subsubsection}{\numberline {5.3.4}Non-Linear Least Squares (NLLS)}{159}{subsubsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.4}The Deterministic Linear Model in Colored Gaussian Noise}{160}{subsection.5.4}%
+\contentsline {subsubsection}{\numberline {5.4.1}Source Localization}{162}{subsubsection.5.4.1}%
+\contentsline {section}{\numberline {6}Autoregressive Moving Average Models: ARMA(P,Q)}{166}{section.6}%
+\contentsline {subsection}{\numberline {6.1}The World decomposition theorem}{166}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}Signal with rational spectra}{169}{subsubsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.2}Autoregressive processes: AR(P)}{173}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}AR(2) processes}{176}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}Moving average processes: MA(Q)}{182}{subsubsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.3}The Yule-Walker (YW) equation for AR(P) processes}{186}{subsubsection.6.2.3}%
+\contentsline {subsubsection}{\numberline {6.2.4}Model identification by using AR(P) models}{187}{subsubsection.6.2.4}%
+\contentsline {subsubsection}{\numberline {6.2.5}Yule-Walker (YW) Method for frequency estimation}{204}{subsubsection.6.2.5}%
+\contentsline {subsection}{\numberline {6.3}SUMMARY}{205}{subsection.6.3}%
+\contentsline {section}{\numberline {7}Bayesian Estimation of Random Parameters}{206}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Introduction}{206}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Gaussian case}{211}{subsection.7.2}%
+\contentsline {subsubsection}{\numberline {7.2.1}Single observation}{211}{subsubsection.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.2}Multiple observations}{214}{subsubsection.7.2.2}%
+\contentsline {subsection}{\numberline {7.3}The Bayesian Linear Model}{215}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Estimation of a constant Gaussian signal in AWGN}{218}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Linear Models}{223}{subsection.7.5}%
+\contentsline {subsubsection}{\numberline {7.5.1}Deterministic Linear Model}{223}{subsubsection.7.5.1}%
+\contentsline {subsubsection}{\numberline {7.5.2}Bayesian Linear Model: MMSE estimate}{224}{subsubsection.7.5.2}%
+\contentsline {subsubsection}{\numberline {7.5.3}Gaussian Linear Model: MMSE estimate}{225}{subsubsection.7.5.3}%
+\contentsline {subsubsection}{\numberline {7.5.4}MAP estimation of Amplitude and Phase in AWGN}{229}{subsubsection.7.5.4}%
+\contentsline {subsection}{\numberline {7.6}MAP estimation of a constant Laplacian signal in AWGN}{231}{subsection.7.6}%
+\contentsline {subsubsection}{\numberline {7.6.1}MAP estimation of the parameter of an Exp distribution}{238}{subsubsection.7.6.1}%
+\contentsline {section}{\numberline {8}Linear Minimum Mean Square Error (LMMSE) Estimate}{243}{section.8}%
+\contentsline {subsection}{\numberline {8.1}MMSE vs Linear MMSE in the Gaussian case}{243}{subsection.8.1}%
+\contentsline {subsubsection}{\numberline {8.1.1}MMSE estimator}{243}{subsubsection.8.1.1}%
+\contentsline {subsubsection}{\numberline {8.1.2}Linear MMSE estimator: the scalar case}{243}{subsubsection.8.1.2}%
+\contentsline {subsection}{\numberline {8.2}LMMSE estimator: multiple observations}{246}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Vector LMMSE estimator}{248}{subsection.8.3}%
+\contentsline {subsubsection}{\numberline {8.3.1}LMMSE estimator for the Bayesian Linear Model}{249}{subsubsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.4}Linear Deconvolution}{249}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Channel Identification}{252}{subsection.8.5}%
+\contentsline {section}{\numberline {9}Optimal Linear Filtering in Mean Square Sense: The Wiener Filter}{254}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Smooting Wiener Filter (Batch)}{255}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Wiener Filter (sequential)}{259}{subsection.9.2}%
