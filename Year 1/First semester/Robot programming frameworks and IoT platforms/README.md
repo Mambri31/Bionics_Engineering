@@ -40,5 +40,5 @@ This was arguably the most interesting course of the semester, especially if you
     * For **ROS 2**, the program is relatively simple, but the theory is vast. Do not underestimate the oral exam duration.
 * **The IoT Experience:** This part is very rewarding and low-stress. Use it as an opportunity to experiment with hardware. The grades for this module are generally very high.
 
-**Resources:** * Check the `/project_assignment` folder for examples of YARP, ROS 2, and IoT implementations.
+**Resources:** * Check the folders for examples of YARP, ROS 2, and IoT implementations.
 * See the `questions.pdf` for a list of frequently asked oral questions.
