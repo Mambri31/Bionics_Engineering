@@ -1,0 +1,6 @@
+# Input the movement and wait to see if the World received it
+# Est = positive x, South = positive y
+int64 movement_x
+int64 movement_y
+---
+bool success
