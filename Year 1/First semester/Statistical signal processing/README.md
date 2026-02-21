@@ -1,4 +1,4 @@
-# 📉 Control Systems / Theory - Exam Guide
+# 📉 Statistical signal processing  - Exam Guide
 
 ## 📋 Exam Format
 The exam consists of two distinct parts. You must pass the written exam before you can access the oral.

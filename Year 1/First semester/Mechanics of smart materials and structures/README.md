@@ -1,4 +1,4 @@
-# 🎓 Exam Information & Tips
+# 🎓 Mechanics of smart material and structures - Exam Guide
 
 ## 📋 Exam Format
 You can complete the exam in one of two ways:

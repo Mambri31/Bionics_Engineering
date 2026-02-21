@@ -1,4 +1,4 @@
-# 🧠 Exam Information & Study Guide
+# 🧠 Neuroanatomy and cognitive neuroscience - Exam guide
 
 ## 📋 Exam Format
 The exam is split into two mandatory parts:

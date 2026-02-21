@@ -1,4 +1,4 @@
-# 🤖 Robotic Middleware & IoT - Exam Guide
+# 🤖 Robotic programming frameworks and IoT platforms - Exam Guide
 
 ## 📊 Exam Structure
 The exam is divided into three main modules, each managed by a different professor. You will receive a separate grade for each, and your final mark will be the average of the three.
