@@ -1,6 +1,0 @@
-Invoking command in '/home/brairlab/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/brairlab/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/brairlab/ros2_ws/install/tutorial_interfaces
-Invoked command in '/home/brairlab/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/brairlab/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/brairlab/ros2_ws/install/tutorial_interfaces
-Invoking command in '/home/brairlab/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/brairlab/ros2_ws/build/tutorial_interfaces -- -j4 -l4
-Invoked command in '/home/brairlab/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/brairlab/ros2_ws/build/tutorial_interfaces -- -j4 -l4
-Invoking command in '/home/brairlab/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/brairlab/ros2_ws/build/tutorial_interfaces
-Invoked command in '/home/brairlab/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/brairlab/ros2_ws/build/tutorial_interfaces
