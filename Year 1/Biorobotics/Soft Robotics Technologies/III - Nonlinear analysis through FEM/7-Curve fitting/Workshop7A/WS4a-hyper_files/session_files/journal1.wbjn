@@ -1,0 +1,75 @@
+﻿# encoding: utf-8
+# Release 16.0
+SetScriptVersion(Version="16.0.361")
+Refresh()
+system1 = GetSystem(Name="SYS")
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Edit()
+engineeringData1 = system1.GetContainer(ComponentName="Engineering Data")
+material1 = engineeringData1.GetMaterial(Name="Structural Steel")
+matl1 = material1.Duplicate(TargetContainer=engineeringData1)
+matl1.DisplayName = "Elastomers"
+matlProp1 = matl1.CreateProperty(Name="Uniaxial Test Data")
+matlProp2 = matl1.CreateProperty(Name="Biaxial Test Data")
+matlProp3 = matl1.CreateProperty(Name="Shear Test Data")
+matlProp3.BeginBatchUpdate()
+matlProp3.SetData(
+    SheetName="Shear Test Data",
+    SheetQualifiers={"Has Lateral Strain": "No"},
+    Index=-1,
+    Variables=["Strain", "Stress"],
+    Values=[["0 [mm mm^-1]", "0.011665 [mm mm^-1]", "0.022715 [mm mm^-1]", "0.033918 [mm mm^-1]", "0.045122 [mm mm^-1]", "0.055711 [mm mm^-1]", "0.066454 [mm mm^-1]", "0.077351 [mm mm^-1]", "0.088094 [mm mm^-1]", "0.09899 [mm mm^-1]", "0.109581 [mm mm^-1]", "0.120323 [mm mm^-1]", "0.131067 [mm mm^-1]", "0.141503 [mm mm^-1]", "0.1524 [mm mm^-1]", "0.162836 [mm mm^-1]", "0.173732 [mm mm^-1]", "0.184015 [mm mm^-1]", "0.194758 [mm mm^-1]", "0.205194 [mm mm^-1]", "0.215477 [mm mm^-1]", "0.225913 [mm mm^-1]", "0.236656 [mm mm^-1]", "0.247553 [mm mm^-1]", "0.25845 [mm mm^-1]", "0.268733 [mm mm^-1]", "0.279783 [mm mm^-1]", "0.290372 [mm mm^-1]", "0.300808 [mm mm^-1]", "0.311552 [mm mm^-1]", "0.322294 [mm mm^-1]", "0.333038 [mm mm^-1]", "0.343781 [mm mm^-1]", "0.354831 [mm mm^-1]", "0.365267 [mm mm^-1]", "0.376317 [mm mm^-1]", "0.386447 [mm mm^-1]", "0.39673 [mm mm^-1]", "0.407625 [mm mm^-1]", "0.418062 [mm mm^-1]", "0.428958 [mm mm^-1]", "0.439548 [mm mm^-1]", "0.449985 [mm mm^-1]", "0.460267 [mm mm^-1]", "0.471317 [mm mm^-1]", "0.4816 [mm mm^-1]", "0.492343 [mm mm^-1]", "0.502933 [mm mm^-1]", "0.51383 [mm mm^-1]", "0.523959 [mm mm^-1]", "0.534702 [mm mm^-1]", "0.544984 [mm mm^-1]", "0.555574 [mm mm^-1]", "0.56601 [mm mm^-1]", "0.576446 [mm mm^-1]", "0.587036 [mm mm^-1]", "0.597319 [mm mm^-1]", "0.607448 [mm mm^-1]", "0.617577 [mm mm^-1]", "0.628013 [mm mm^-1]", "0.638143 [mm mm^-1]", "0.648272 [mm mm^-1]", "0.658401 [mm mm^-1]", "0.66853 [mm mm^-1]", "0.67866 [mm mm^-1]"], ["0 [MPa]", "0.085112 [MPa]", "0.140359 [MPa]", "0.188141 [MPa]", "0.22796 [MPa]", "0.264045 [MPa]", "0.299633 [MPa]", "0.329993 [MPa]", "0.35936 [MPa]", "0.388228 [MPa]", "0.41411 [MPa]", "0.439494 [MPa]", "0.463882 [MPa]", "0.487276 [MPa]", "0.508678 [MPa]", "0.529831 [MPa]", "0.550736 [MPa]", "0.570895 [MPa]", "0.590305 [MPa]", "0.610214 [MPa]", "0.628381 [MPa]", "0.646549 [MPa]", "0.664467 [MPa]", "0.683132 [MPa]", "0.700552 [MPa]", "0.717724 [MPa]", "0.734895 [MPa]", "0.75356 [MPa]", "0.769488 [MPa]", "0.78641 [MPa]", "0.801591 [MPa]", "0.819509 [MPa]", "0.835188 [MPa]", "0.85211 [MPa]", "0.868287 [MPa]", "0.88496 [MPa]", "0.900888 [MPa]", "0.91781 [MPa]", "0.933738 [MPa]", "0.949914 [MPa]", "0.967085 [MPa]", "0.983013 [MPa]", "1.000433 [MPa]", "1.017853 [MPa]", "1.034279 [MPa]", "1.05145 [MPa]", "1.070115 [MPa]", "1.088531 [MPa]", "1.107195 [MPa]", "1.127851 [MPa]", "1.146267 [MPa]", "1.166674 [MPa]", "1.18708 [MPa]", "1.209728 [MPa]", "1.231379 [MPa]", "1.255269 [MPa]", "1.280156 [MPa]", "1.305541 [MPa]", "1.332915 [MPa]", "1.361784 [MPa]", "1.392891 [MPa]", "1.424994 [MPa]", "1.460831 [MPa]", "1.499653 [MPa]", "1.54196 [MPa]"]])
+matlProp3.EndBatchUpdate()
+matlProp3.Delete()
+matlProp4 = matl1.CreateProperty(Name="Shear Test Data")
+matlProp1.BeginBatchUpdate()
+matlProp1.SetData(
+    SheetName="Uniaxial Test Data",
+    Index=-1,
+    Variables=["Strain", "Stress"],
+    Values=[["0 [mm mm^-1]", "0.011665 [mm mm^-1]", "0.022715 [mm mm^-1]", "0.033918 [mm mm^-1]", "0.045122 [mm mm^-1]", "0.055711 [mm mm^-1]", "0.066454 [mm mm^-1]", "0.077351 [mm mm^-1]", "0.088094 [mm mm^-1]", "0.09899 [mm mm^-1]", "0.109581 [mm mm^-1]", "0.120323 [mm mm^-1]", "0.131067 [mm mm^-1]", "0.141503 [mm mm^-1]", "0.1524 [mm mm^-1]", "0.162836 [mm mm^-1]", "0.173732 [mm mm^-1]", "0.184015 [mm mm^-1]", "0.194758 [mm mm^-1]", "0.205194 [mm mm^-1]", "0.215477 [mm mm^-1]", "0.225913 [mm mm^-1]", "0.236656 [mm mm^-1]", "0.247553 [mm mm^-1]", "0.25845 [mm mm^-1]", "0.268733 [mm mm^-1]", "0.279783 [mm mm^-1]", "0.290372 [mm mm^-1]", "0.300808 [mm mm^-1]", "0.311552 [mm mm^-1]", "0.322294 [mm mm^-1]", "0.333038 [mm mm^-1]", "0.343781 [mm mm^-1]", "0.354831 [mm mm^-1]", "0.365267 [mm mm^-1]", "0.376317 [mm mm^-1]", "0.386447 [mm mm^-1]", "0.39673 [mm mm^-1]", "0.407625 [mm mm^-1]", "0.418062 [mm mm^-1]", "0.428958 [mm mm^-1]", "0.439548 [mm mm^-1]", "0.449985 [mm mm^-1]", "0.460267 [mm mm^-1]", "0.471317 [mm mm^-1]", "0.4816 [mm mm^-1]", "0.492343 [mm mm^-1]", "0.502933 [mm mm^-1]", "0.51383 [mm mm^-1]", "0.523959 [mm mm^-1]", "0.534702 [mm mm^-1]", "0.544984 [mm mm^-1]", "0.555574 [mm mm^-1]", "0.56601 [mm mm^-1]", "0.576446 [mm mm^-1]", "0.587036 [mm mm^-1]", "0.597319 [mm mm^-1]", "0.607448 [mm mm^-1]", "0.617577 [mm mm^-1]", "0.628013 [mm mm^-1]", "0.638143 [mm mm^-1]", "0.648272 [mm mm^-1]", "0.658401 [mm mm^-1]", "0.66853 [mm mm^-1]", "0.67866 [mm mm^-1]"], ["0 [MPa]", "0.085112 [MPa]", "0.140359 [MPa]", "0.188141 [MPa]", "0.22796 [MPa]", "0.264045 [MPa]", "0.299633 [MPa]", "0.329993 [MPa]", "0.35936 [MPa]", "0.388228 [MPa]", "0.41411 [MPa]", "0.439494 [MPa]", "0.463882 [MPa]", "0.487276 [MPa]", "0.508678 [MPa]", "0.529831 [MPa]", "0.550736 [MPa]", "0.570895 [MPa]", "0.590305 [MPa]", "0.610214 [MPa]", "0.628381 [MPa]", "0.646549 [MPa]", "0.664467 [MPa]", "0.683132 [MPa]", "0.700552 [MPa]", "0.717724 [MPa]", "0.734895 [MPa]", "0.75356 [MPa]", "0.769488 [MPa]", "0.78641 [MPa]", "0.801591 [MPa]", "0.819509 [MPa]", "0.835188 [MPa]", "0.85211 [MPa]", "0.868287 [MPa]", "0.88496 [MPa]", "0.900888 [MPa]", "0.91781 [MPa]", "0.933738 [MPa]", "0.949914 [MPa]", "0.967085 [MPa]", "0.983013 [MPa]", "1.000433 [MPa]", "1.017853 [MPa]", "1.034279 [MPa]", "1.05145 [MPa]", "1.070115 [MPa]", "1.088531 [MPa]", "1.107195 [MPa]", "1.127851 [MPa]", "1.146267 [MPa]", "1.166674 [MPa]", "1.18708 [MPa]", "1.209728 [MPa]", "1.231379 [MPa]", "1.255269 [MPa]", "1.280156 [MPa]", "1.305541 [MPa]", "1.332915 [MPa]", "1.361784 [MPa]", "1.392891 [MPa]", "1.424994 [MPa]", "1.460831 [MPa]", "1.499653 [MPa]", "1.54196 [MPa]"]])
+matlProp1.EndBatchUpdate()
+matlProp2.BeginBatchUpdate()
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Has Lateral Strain": "No"},
+    Index=-1,
+    Variables=["Strain", "Stress"],
+    Values=[["0 [mm mm^-1]", "0.005654 [mm mm^-1]", "0.012419 [mm mm^-1]", "0.019286 [mm mm^-1]", "0.026454 [mm mm^-1]", "0.033725 [mm mm^-1]", "0.041096 [mm mm^-1]", "0.048164 [mm mm^-1]", "0.055535 [mm mm^-1]", "0.062805 [mm mm^-1]", "0.070277 [mm mm^-1]", "0.077547 [mm mm^-1]", "0.08512 [mm mm^-1]", "0.092491 [mm mm^-1]", "0.100064 [mm mm^-1]", "0.10784 [mm mm^-1]", "0.115412 [mm mm^-1]", "0.123188 [mm mm^-1]", "0.131265 [mm mm^-1]", "0.139444 [mm mm^-1]", "0.147522 [mm mm^-1]", "0.155802 [mm mm^-1]", "0.164283 [mm mm^-1]", "0.172664 [mm mm^-1]", "0.181348 [mm mm^-1]", "0.190032 [mm mm^-1]", "0.19922 [mm mm^-1]", "0.208308 [mm mm^-1]", "0.217497 [mm mm^-1]", "0.226685 [mm mm^-1]", "0.236176 [mm mm^-1]", "0.24587 [mm mm^-1]", "0.25516 [mm mm^-1]", "0.264955 [mm mm^-1]", "0.274849 [mm mm^-1]", "0.284745 [mm mm^-1]", "0.294842 [mm mm^-1]", "0.30494 [mm mm^-1]", "0.315138 [mm mm^-1]", "0.325539 [mm mm^-1]", "0.335939 [mm mm^-1]", "0.346238 [mm mm^-1]", "0.356739 [mm mm^-1]", "0.367039 [mm mm^-1]", "0.377237 [mm mm^-1]", "0.387637 [mm mm^-1]", "0.397734 [mm mm^-1]", "0.408235 [mm mm^-1]", "0.418131 [mm mm^-1]", "0.428329 [mm mm^-1]", "0.438326 [mm mm^-1]"], ["0 [MPa]", "0.12375 [MPa]", "0.200811 [MPa]", "0.263535 [MPa]", "0.320316 [MPa]", "0.371062 [MPa]", "0.416242 [MPa]", "0.456329 [MPa]", "0.494812 [MPa]", "0.531314 [MPa]", "0.565176 [MPa]", "0.597622 [MPa]", "0.628937 [MPa]", "0.657045 [MPa]", "0.686474 [MPa]", "0.715713 [MPa]", "0.740048 [MPa]", "0.764949 [MPa]", "0.790982 [MPa]", "0.814939 [MPa]", "0.838991 [MPa]", "0.863798 [MPa]", "0.88851 [MPa]", "0.911902 [MPa]", "0.936237 [MPa]", "0.959818 [MPa]", "0.982455 [MPa]", "1.007167 [MPa]", "1.029898 [MPa]", "1.053196 [MPa]", "1.077531 [MPa]", "1.103375 [MPa]", "1.128464 [MPa]", "1.154309 [MPa]", "1.176757 [MPa]", "1.205053 [MPa]", "1.230332 [MPa]", "1.258628 [MPa]", "1.289 [MPa]", "1.319277 [MPa]", "1.349461 [MPa]", "1.382473 [MPa]", "1.419541 [MPa]", "1.456516 [MPa]", "1.494621 [MPa]", "1.536689 [MPa]", "1.582812 [MPa]", "1.630539 [MPa]", "1.686283 [MPa]", "1.745705 [MPa]", "1.811947 [MPa]"]])
+matlProp2.EndBatchUpdate()
+matlProp4.BeginBatchUpdate()
+matlProp4.SetData(
+    SheetName="Shear Test Data",
+    SheetQualifiers={"Has Lateral Strain": "No"},
+    Index=-1,
+    Variables=["Strain", "Stress"],
+    Values=[["0 [mm mm^-1]", "0.012065 [mm mm^-1]", "0.025226 [mm mm^-1]", "0.037657 [mm mm^-1]", "0.049905 [mm mm^-1]", "0.062427 [mm mm^-1]", "0.074493 [mm mm^-1]", "0.087472 [mm mm^-1]", "0.099993 [mm mm^-1]", "0.112424 [mm mm^-1]", "0.124398 [mm mm^-1]", "0.137102 [mm mm^-1]", "0.149899 [mm mm^-1]", "0.161964 [mm mm^-1]", "0.174486 [mm mm^-1]", "0.187099 [mm mm^-1]", "0.199804 [mm mm^-1]", "0.2126 [mm mm^-1]", "0.225214 [mm mm^-1]", "0.23801 [mm mm^-1]", "0.251172 [mm mm^-1]", "0.263329 [mm mm^-1]", "0.276399 [mm mm^-1]", "0.289286 [mm mm^-1]", "0.301808 [mm mm^-1]", "0.314787 [mm mm^-1]", "0.32731 [mm mm^-1]", "0.340563 [mm mm^-1]", "0.352902 [mm mm^-1]", "0.365973 [mm mm^-1]", "0.378952 [mm mm^-1]", "0.391748 [mm mm^-1]", "0.404727 [mm mm^-1]", "0.41798 [mm mm^-1]", "0.431051 [mm mm^-1]", "0.443481 [mm mm^-1]", "0.456095 [mm mm^-1]", "0.469074 [mm mm^-1]", "0.48187 [mm mm^-1]", "0.494667 [mm mm^-1]", "0.507646 [mm mm^-1]", "0.520716 [mm mm^-1]", "0.533695 [mm mm^-1]", "0.545943 [mm mm^-1]", "0.558465 [mm mm^-1]", "0.57181 [mm mm^-1]", "0.584606 [mm mm^-1]", "0.597768 [mm mm^-1]", "0.610564 [mm mm^-1]", "0.62336 [mm mm^-1]", "0.635608 [mm mm^-1]", "0.648314 [mm mm^-1]", "0.660926 [mm mm^-1]"], ["0 [MPa]", "0.139433 [MPa]", "0.227981 [MPa]", "0.297004 [MPa]", "0.356078 [MPa]", "0.408686 [MPa]", "0.456129 [MPa]", "0.498534 [MPa]", "0.54031 [MPa]", "0.577635 [MPa]", "0.613154 [MPa]", "0.646491 [MPa]", "0.678231 [MPa]", "0.708462 [MPa]", "0.736843 [MPa]", "0.76468 [MPa]", "0.791286 [MPa]", "0.816897 [MPa]", "0.841836 [MPa]", "0.866103 [MPa]", "0.889783 [MPa]", "0.912371 [MPa]", "0.935211 [MPa]", "0.957799 [MPa]", "0.979884 [MPa]", "1.001296 [MPa]", "1.022877 [MPa]", "1.044205 [MPa]", "1.065198 [MPa]", "1.086527 [MPa]", "1.108024 [MPa]", "1.129268 [MPa]", "1.150512 [MPa]", "1.172093 [MPa]", "1.193841 [MPa]", "1.213323 [MPa]", "1.237758 [MPa]", "1.261102 [MPa]", "1.284613 [MPa]", "1.308378 [MPa]", "1.333149 [MPa]", "1.359179 [MPa]", "1.38563 [MPa]", "1.413845 [MPa]", "1.443234 [MPa]", "1.47422 [MPa]", "1.507053 [MPa]", "1.542572 [MPa]", "1.58058 [MPa]", "1.62139 [MPa]", "1.665726 [MPa]", "1.714596 [MPa]", "1.769177 [MPa]"]])
+matlProp4.EndBatchUpdate()
+matlProp5 = matl1.CreateProperty(
+    Name="Yeoh",
+    Definition="3rd Order")
+materialPropertyData1 = matlProp5.GetPropertyData(
+    Name="Yeoh",
+    Qualifiers={"Definition": "3rd Order"})
+curveFit1 = materialPropertyData1.CreateCurveFitting(
+    Type="Yeoh",
+    Definition="3rd Order")
+curveFit1.AddTestData(TestData=matlProp1)
+curveFit1.AddTestData(TestData=matlProp2)
+curveFit1.AddTestData(TestData=matlProp4)
+curveFit1.Solve()
+curveFitData1 = curveFit1.CurveFitData
+curveFitData1.SetQualifier(
+    SheetName="Yeoh",
+    SheetQualifiers={"Definition": "3rd Order", "Error Norm for Fit": "Normalized Error"},
+    Qualifier="Error Norm for Fit",
+    Value="Absolute Error")
+curveFit1.Solve()
+curveFit1.CopyCoefficients(Destination=materialPropertyData1)
+Refresh()
+model1.Edit()
+model1.Exit()
+curveFit1.Delete()
+matlProp5.Delete(Definition="3rd Order")
+matl1.Delete()
+Save(Overwrite=True)

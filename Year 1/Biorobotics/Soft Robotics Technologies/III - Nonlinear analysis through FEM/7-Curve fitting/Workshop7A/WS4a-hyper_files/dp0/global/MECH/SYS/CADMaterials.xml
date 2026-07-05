@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EngineeringData version="12.0">
+  <Notes />
+  <Materials>
+    <MatML_Doc>
+      <Metadata />
+    </MatML_Doc>
+  </Materials>
+  <Loads />
+  <BeamSections />
+</EngineeringData>

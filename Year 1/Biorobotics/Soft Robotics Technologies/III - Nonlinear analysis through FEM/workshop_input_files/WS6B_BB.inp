@@ -1,0 +1,31 @@
+
+
+etcontrol,off
+
+muA = 0.6 				! Mpa
+N0 = 8
+muB = 0.96				! Mpa
+N1  = 8
+C1_b = 5
+c = -1
+m = 4
+e = 0
+B1 = 1/1000				! 1/Mpa
+
+TBDELE,all,matid
+MPDELE, all,matid
+
+TB, BB, matid, , , ISO       !Activate Bergstrom-Boyce ISO data table
+TBDATA, 1, muA              !Define material constant muA , 
+TBDATA, 2, N0               !Define N0=(gamma lock A)2
+TBDATA, 3, muB              !Define material constant muB
+TBDATA, 4, N1               !Define N1=(gamma lock B)2
+TBDATA, 5, C1_b             !Define material constant [gamma0./TAUb^m] = C1_b 
+TBDATA, 6, c                !Define material constant c
+TBDATA, 7, m                !Define material constant m
+TBDATA, 8, e	           	 !Define material constant epsilon
+ 
+TB, BB, matid, , , PVOL      !Activate Bergstrom-Boyce PVOL data table
+TBDATA, 1, B1               ! as 1/K, K is the bulk modulus
+
+keyopt,matid,6,1

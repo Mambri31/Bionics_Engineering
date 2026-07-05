@@ -1,6 +1,0 @@
-/home/brairlab/Desktop/Mambrini_Yarp/build/CMakeFiles/edit_cache.dir
-/home/brairlab/Desktop/Mambrini_Yarp/build/CMakeFiles/rebuild_cache.dir
-/home/brairlab/Desktop/Mambrini_Yarp/build/programs/CMakeFiles/program1.dir
-/home/brairlab/Desktop/Mambrini_Yarp/build/programs/CMakeFiles/program2.dir
-/home/brairlab/Desktop/Mambrini_Yarp/build/programs/CMakeFiles/edit_cache.dir
-/home/brairlab/Desktop/Mambrini_Yarp/build/programs/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,11 @@
+/COM,ANSYS RELEASE 2026 R1           BUILD 26.1      UP20260202       17:13:15
+
+ *** WARNING ***                         ELAPSED TIME =       4.957   TIME= 17:13:16
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         ELAPSED TIME =       5.212   TIME= 17:13:16
+ Pivoting has been activated for the Distributed Sparse Matrix Solver.   
+ The memory required may greatly exceed the predicted amount.  In that   
+ event, use the DSPOPTION command to change the memory mode and/or       
+ memory size used by the Distributed Sparse Matrix Solver.               
