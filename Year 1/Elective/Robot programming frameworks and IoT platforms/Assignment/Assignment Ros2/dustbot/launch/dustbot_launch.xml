@@ -1,0 +1,7 @@
+<launch>
+    <node name="world_node" pkg="dustbot" exec="world" output="screen">
+        <param name="N" value="10" />
+        <param name="P" value="5" />
+    </node> 
+    <node name="robot_node" pkg="dustbot" exec="robot" output="screen" />
+</launch>

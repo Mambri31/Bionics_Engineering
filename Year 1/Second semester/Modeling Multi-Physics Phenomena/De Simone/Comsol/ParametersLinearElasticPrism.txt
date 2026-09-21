@@ -1,0 +1,9 @@
+L 1[m] Length
+W 0.1[m] Width
+H 0.1[m] Height
+Ey 10^6[Pa] "Young modulus for silicone rubber"
+nu .49 "Poisson ratio"
+para 1 "loading parameter, range=(0,1)"
+theta 30*pi/180 "30  deg torsion anglee in rad"
+RefForce 3*B/(L^2) "Tip bending force producing displacement =L in a cantilever"
+B Ey*W*H^3/12 "bending stiffness"

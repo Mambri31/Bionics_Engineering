@@ -1,0 +1,5 @@
+{
+    "particle.targetDevice": "BURBA",
+    "particle.targetPlatform": "argon",
+    "particle.firmwareVersion": "6.3.4"
+}

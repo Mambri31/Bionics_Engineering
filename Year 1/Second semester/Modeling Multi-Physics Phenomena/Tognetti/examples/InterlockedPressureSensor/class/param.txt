@@ -1,0 +1,8 @@
+w_ly "7.5 [um]" "length of the layer"
+w_lx 7.5[um] "width of the layer"
+sp "0.8 [um]" "space between layers"
+r_d "2.5 [um]" "radius of a microdome"
+h_l "3 [um]" "height of the layer"
+disp_max (0.5)[um] "maximum displacemente"
+disp "0 [um]" "initial displacement"
+steps 30 "displacement steps"

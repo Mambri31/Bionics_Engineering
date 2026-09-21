@@ -1,0 +1,16 @@
+L 5[m] ""
+H 0.1[m] ""
+W 1[m] ""
+E 1[GPa] Young
+nu 0.0 Poisson
+rho 1000[kg/m^3] Density
+Fref 3*E*I/L^2 ""
+I W*H^3/12 "Inertia Moment x Axis"
+para 0 ""
+alpha1 0.01[1/K] "Coefficient of thermal expansion"
+Tlower 290[K] ""
+Tupper 300[K] ""
+alpha2 0.02[1/K] ""
+M0 3/2*(alpha2-alpha1)*(Tupper-Tlower)/H*E*I "case Fig 6 Timoshenko article"
+R "9/4 * E * I / H / L * (alpha2 - alpha1)*(Tupper-Tlower)" "case Fig 8 Timoshenko article"
+M1 9/4*(alpha2-alpha1)*(Tupper-Tlower)/H*E*I "case Fig 8 Timoshenko article"
