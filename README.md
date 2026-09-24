@@ -36,7 +36,7 @@ Year 2/
 | Course | Exam format | Professors |
 |---|---|---|
 | [Neuroanatomy and cognitive neuroscience](Year%201/First%20semester/Neuroanatomy%20and%20cognitive%20neuroscience/README.md) | Written (11 questions, 30 min) + oral (2-3 questions) | Prof. Ricciardi, Bernardi |
-| [Principles of bionics and biorobotics engineering](Year%201/First%20semester/Principles%20of%20bionics%20and%20biorotics%20engineering/README.md) | Group project (10 slides, 10 min) + oral on slides | Prof. Romano |
+| [Principles of bionics and biorobotics engineering](Year%201/First%20semester/Principles%20of%20bionics%20and%20biorotics%20engineering/README.md) | Group project (10 slides, 10 min) + oral on slides | Prof. Romano, Bandini |
 | [Statistical signal processing](Year%201/First%20semester/Statistical%20signal%20processing/README.md) | Written (one big exercise) + oral (30 min written derivation + discussion) | Prof. Gini |
 
 ### 2️⃣ Second Semester
