@@ -69,7 +69,7 @@ Year 2/
 * **Use past questions** – several folders contain PDFs of previous oral/written questions that repeat across sessions.
 * **Understand every line you submit** – professors often ask about code and derivations in detail, especially when AI tools may have been used.
 * **Study in parallel with lectures** for theory-heavy courses (Statistical signal processing, Data Mining & ML).
-* **Attend lectures** – being a familiar face helps at oral exams.
+
 
 ---
 
